@@ -1,13 +1,20 @@
 #paragrafo1{
-    font-size: small;
+    font-family: "Atma", system-ui;
+    font-weight: 300;
+    font-style: normal;
 }
 #paragrafo2{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Atma", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 #paragrafo3{
-    font-size: 300;
-    color: blue;
+    font-family: "Atma", system-ui;
+    font-weight: 500;
+    font-style: normal;
 }
 #paragrafo4{
-    padding-left: 30%;
+    font-family: "Atma", system-ui;
+    font-weight: 600;
+    font-style: normal;
 }
