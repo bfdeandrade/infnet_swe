@@ -1,0 +1,13 @@
+#paragrafo1{
+    font-size: small;
+}
+#paragrafo2{
+    font-family: 'Courier New', Courier, monospace;
+}
+#paragrafo3{
+    font-size: 300;
+    color: blue;
+}
+#paragrafo4{
+    padding-left: 30%;
+}
