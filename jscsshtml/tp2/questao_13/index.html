@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Seletores CSS</title>
+    <style>
+        /* Seletor de Tipo */
+        p {
+            color: blue;
+        }
+
+        /* Seletor de Classe */
+        .classe-exemplo {
+            font-weight: bold;
+        }
+
+        /* Seletor de ID */
+        #id-exemplo {
+            background-color: yellow;
+        }
+
+        /* Seletor de Atributo */
+        [data-exemplo="true"] {
+            border: 2px solid red;
+        }
+
+        /* Seletor de Descendente */
+        div p {
+            font-style: italic;
+        }
+
+        /* Seletor de Pseudo-classe */
+        a:hover {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplos de Seletores CSS</h1>
+
+    <h2>Seletor de Tipo</h2>
+    <p>Este parágrafo é estilizado usando um seletor de tipo. Todos os elementos &lt;p&gt; são coloridos de azul.</p>
+
+    <h2>Seletor de Classe</h2>
+    <p class="classe-exemplo">Este parágrafo é estilizado usando um seletor de classe. Ele está em negrito.</p>
+
+    <h2>Seletor de ID</h2>
+    <p id="id-exemplo">Este parágrafo é estilizado usando um seletor de ID. Ele tem um fundo amarelo.</p>
+
+    <h2>Seletor de Atributo</h2>
+    <p data-exemplo="true">Este parágrafo é estilizado usando um seletor de atributo. Ele tem uma borda vermelha.</p>
+
+    <h2>Seletor de Descendente</h2>
+    <div>
+        <p>Este parágrafo é estilizado usando um seletor de descendente. Ele está em itálico porque está dentro de um &lt;div&gt;.</p>
+    </div>
+
+    <h2>Seletor de Pseudo-classe</h2>
+    <p>Este parágrafo contém um <a href="#">link</a> que muda de cor quando você passa o mouse sobre ele, usando um seletor de pseudo-classe.</p>
+</body>
+</html>
