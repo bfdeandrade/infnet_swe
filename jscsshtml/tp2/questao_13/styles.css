@@ -1,0 +1,33 @@
+h1 {
+    text-decoration: underline;
+  }
+  /* Seletor de Tipo */
+  p {
+    color: blue;
+  }
+  
+  /* Seletor de Classe */
+  .classe-exemplo {
+    font-weight: bold;
+  }
+  
+  /* Seletor de ID */
+  #id-exemplo {
+    background-color: yellow;
+  }
+  
+  /* Seletor de Atributo */
+  [data-exemplo="true"] {
+    border: 2px solid red;
+  }
+  
+  /* Seletor de Descendente */
+  div p {
+    font-style: italic;
+  }
+  
+  /* Seletor de Pseudo-classe */
+  * {
+    font-size: x-large;
+  }
+  

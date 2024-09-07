@@ -1,62 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplos de Seletores CSS</title>
-    <style>
-        /* Seletor de Tipo */
-        p {
-            color: blue;
-        }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <h1>Questão 13 TP2 - HTML/CSS</h1>
+    </header>
+    <h2>1)Seletor de Tag</h2>
+    <p>Seleciona todos os componentes são da mesma tag</p>
 
-        /* Seletor de Classe */
-        .classe-exemplo {
-            font-weight: bold;
-        }
+    <h2>2)Seletor de Classe</h2>
+    <p class="classe-exemplo">
+      Seleciona todos os itens que possuem a mesma classe. Para utilizar-la,
+      utiliza o . + nome da classe
+    </p>
 
-        /* Seletor de ID */
-        #id-exemplo {
-            background-color: yellow;
-        }
+    <h2>3)Seletor de ID</h2>
+    <p id="id-exemplo">Seleciona todos os itens que possuem o mesmo id="id"</p>
 
-        /* Seletor de Atributo */
-        [data-exemplo="true"] {
-            border: 2px solid red;
-        }
+    <h2>4)Seletor de Atributo</h2>
+    <p data-exemplo="true">Seleciona os itens com base no atributo</p>
 
-        /* Seletor de Descendente */
-        div p {
-            font-style: italic;
-        }
-
-        /* Seletor de Pseudo-classe */
-        a:hover {
-            color: green;
-        }
-    </style>
-</head>
-<body>
-    <h1>Exemplos de Seletores CSS</h1>
-
-    <h2>Seletor de Tipo</h2>
-    <p>Este parágrafo é estilizado usando um seletor de tipo. Todos os elementos &lt;p&gt; são coloridos de azul.</p>
-
-    <h2>Seletor de Classe</h2>
-    <p class="classe-exemplo">Este parágrafo é estilizado usando um seletor de classe. Ele está em negrito.</p>
-
-    <h2>Seletor de ID</h2>
-    <p id="id-exemplo">Este parágrafo é estilizado usando um seletor de ID. Ele tem um fundo amarelo.</p>
-
-    <h2>Seletor de Atributo</h2>
-    <p data-exemplo="true">Este parágrafo é estilizado usando um seletor de atributo. Ele tem uma borda vermelha.</p>
-
-    <h2>Seletor de Descendente</h2>
+    <h2>5)Seletor de Descendente</h2>
     <div>
-        <p>Este parágrafo é estilizado usando um seletor de descendente. Ele está em itálico porque está dentro de um &lt;div&gt;.</p>
+      <p>Aplica a todos as tags que estão dentro de uma tag mãe</p>
     </div>
 
-    <h2>Seletor de Pseudo-classe</h2>
-    <p>Este parágrafo contém um <a href="#">link</a> que muda de cor quando você passa o mouse sobre ele, usando um seletor de pseudo-classe.</p>
-</body>
+    <h2>6)Seletor universal</h2>
+    <p>
+      Você pode usar um seletor universal '*' para aplicar uma regra para todos
+      os componentes de uma página HTML
+    </p>
+  </body>
 </html>
